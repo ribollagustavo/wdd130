@@ -1,0 +1,14 @@
+CSS Units of Measurement
+
+Properties of measurement = Relative & Absolute
+Ex.: px, em, rem, %
+
+Color values
+
+keyword: antiquewhite, burlywood, yellow, lightyellow, etc.
+hexadecimal RGB (red, green, blue): #faebd7
+where the first two characters are the red value, the next two are the green value, and the last two are the blue value in hexadecimal (base16) format (0 to F)
+RGB or RGBA: rgb(250, 235, 215) or rgb(250 235 215 / 1)
+where r is a red value ranging from 0 to 255, g is a green value ranging from 0 to 255, b is a blue value ranging from 0 to 255, and the last value is the alpha value ranging from 0 to 1 (0% to 100%)
+HSLA: hsla(34, 78%, 91%, 1)
+where h is the hue (0 to 360), s is the saturation (0% to 100%), l is the lightness (0% to 100%), and a is the alpha value (0 to 1)

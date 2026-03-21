@@ -1,0 +1,12 @@
+An Introduction to CSS
+
+HTML = The coding itself
+CSS = The styling of the website
+
+CSS Key Terms
+Selector — h1
+Declaration Block — { }
+Declaration — background-color: darkblue; (There are four total declarations in this example.)
+Property — background-color
+Value — darkblue
+CSS Rule — the entire block of code
