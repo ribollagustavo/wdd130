@@ -1,0 +1,26 @@
+Semantic Tags = Tell the browser and developers what type of content they contain
+
+header – Contains introductory content or navigation links
+nav – Contains navigation links to other pages or sections
+main – Contains the main content of the page
+section – Represents a distinct section of content
+article – Contains independent, self-contained content
+aside – Contains content that is related but separate from the main content
+footer – Contains closing information like contact details or copyright
+h1, h2, h3, h4, h5, h6 – Represent different levels of headings
+
+Non-semantic tags = Not having specific meaning about their content. They are used mainly for styling and layout purposes.
+
+div – A container used for grouping and styling a section of a page
+span – A container used for styling small portions of text
+
+THE SIX HEADING TAGS
+
+h1 – The main title of your webpage. Use only one h1 tag per page.
+h2 – Major section headings that divide your content into main parts.
+h3 – Subsection headings that break down h2 sections into smaller parts.
+h4 – Minor headings for detailed subsections within h3 sections.
+h5 – Small headings for very specific content areas.
+h6 – The smallest heading, rarely used but available for detailed organization.
+
+DISCLAIMER: Do not skip heading levels. For example, do not use an h4 directly after an h2 without using h3 first.
