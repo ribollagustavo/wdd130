@@ -1,0 +1,6 @@
+HTML Block and Inline Elements
+
+Block = makes sure to set a block margin around the pic
+inline = a mix of both the block and other pics
+
+obs: margin= 0 auto; makes it fit right in the middle without much effort
