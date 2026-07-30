@@ -1,12 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #b7a8d6;
+    --secondary-color: #eeeeee;
+    --border-color: #999999;
+    --text-color: #333333;
+    --white: #ffffff;
+}
+
 body {
     font-family: Arial, sans-serif;
+    color: var(--text-color);
 }
 
 .site-header {
     display: grid;
     grid-template-columns: 120px 1fr;
     align-items: center;
-    background-color: #b7a8d6;
+    background-color: var(--primary-color);
     padding: 20px;
 }
 
@@ -22,10 +37,10 @@ body {
 
 .main-nav a {
     padding: 10px 20px;
-    background-color: #eee;
-    border: 1px solid #333;
-    text-decoration: none;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--text-color);
     color: black;
+    text-decoration: none;
 }
 
 .hero {
@@ -35,31 +50,46 @@ body {
     text-align: center;
 }
 
-.hero-content {
-    display: grid;
-    grid-template-columns: 1fr 120px;
-    gap: 20px;
-    align-items: center;
-
-    border: 2px solid #999;
-    padding: 15px;
-    background-color: #eee;
+.hero {
+    position: relative;
+    margin: 20px;
+    border: 2px solid var(--border-color);
 }
 
-.hero-content p {
-    text-align: left;
-    margin: 0;
-}
-
-.hero-content img {
-    width: 120px;
-    height: auto;
+.hero > img {
     display: block;
-    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: var(--white);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+.hero article {
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+}
+
+.hero article img {
+    float: right;
+    width: 140px;
+    margin-left: 20px;
 }
 
 .history {
-    border: 2px solid #999;
+    border: 2px solid var(--border-color);
     margin: 20px;
     padding: 20px;
     text-align: center;
@@ -70,6 +100,7 @@ body {
     grid-template-columns: 1fr 150px 1fr;
     gap: 20px;
     align-items: center;
+    margin-top: 20px;
 }
 
 .history-content img {
@@ -77,7 +108,7 @@ body {
 }
 
 .adventure {
-    border: 2px solid #999;
+    border: 2px solid var(--border-color);
     margin: 20px;
     padding: 20px;
     text-align: center;
@@ -86,7 +117,8 @@ body {
 .adventure-gallery {
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 .adventure-gallery figure {
@@ -95,10 +127,16 @@ body {
 
 .adventure-gallery img {
     width: 100%;
+    display: block;
 }
 
-.site-footer {
-    background-color: #b7a8d6;
+.adventure-gallery figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+footer {
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,8 +144,7 @@ body {
     margin-top: 20px;
 }
 
-.site-footer p {
-    margin: 0;
+footer p {
     font-size: 14px;
 }
 
@@ -116,10 +153,14 @@ body {
     gap: 15px;
 }
 
+.socialmedia a {
+    text-decoration: none;
+}
+
 .socialmedia img {
     width: 35px;
     height: 35px;
-    border: 1px solid #333;
+    border: 1px solid var(--text-color);
     padding: 5px;
-    background-color: #eee;
+    background-color: var(--secondary-color);
 }
