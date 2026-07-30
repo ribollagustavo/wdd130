@@ -28,7 +28,7 @@ body {
     color: black;
 }
 
-.hero-box {
+.hero {
     border: 2px solid #999;
     margin: 20px;
     padding: 20px;
@@ -58,7 +58,7 @@ body {
     margin: 0 auto;
 }
 
-.history-box {
+.history {
     border: 2px solid #999;
     margin: 20px;
     padding: 20px;
@@ -76,7 +76,7 @@ body {
     width: 150px;
 }
 
-.adventure-box {
+.adventure {
     border: 2px solid #999;
     margin: 20px;
     padding: 20px;
